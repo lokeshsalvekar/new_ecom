@@ -1,0 +1,29 @@
+{
+  "name": "react-node-backend-dashboard",
+  "version": "1.0.0",
+  "description": "manage the product fromdashboard\r api in node.js\r front end react and angular \r restful api\r mongoodb database",
+  "main": "index.js",
+  "type":"module",
+ 
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
